@@ -171,6 +171,21 @@ const props = [
         group: 'Style',
     },
     {
+        key: 'layers',
+        group: 'Customization',
+        help: 'Defines the order of layers and add custom layers.',
+        description: `
+            You can also use this property to insert extra layers
+            to the chart, this extra layer must be
+            a function which will receive the chart
+            computed data and must return a valid SVG element.
+            Please have a look at the package's TypeScript definitions
+            for more information about the available properties.
+        `,
+        required: false,
+        defaultValue: radarDefaults.layers,
+    },
+    {
         key: 'gridLevels',
         help: 'Number of levels to display for grid',
         type: 'number',

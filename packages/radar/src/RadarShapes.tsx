@@ -7,16 +7,15 @@
  * file that was distributed with this source code.
  */
 import React, { useMemo } from 'react'
-import { LineRadial } from 'd3-shape'
+import { LineRadial, lineRadial } from 'd3-shape'
 import { useMotionConfig, useAnimatedPath, useTheme, CssMixBlendMode } from '@nivo/core'
 import { useInheritedColor, InheritedColor } from '@nivo/colors'
-import { RadarSerie, BaseRadarDatum } from './hooks'
+import { RadarSerie, BaseRadarDatum, RadarSerieDatum } from './hooks'
 import { useSpring, animated } from 'react-spring'
-import { lineRadial } from 'd3-shape'
 
 export interface RadarShapesProps<Datum extends BaseRadarDatum> {
     data: Array<RadarSerie<Datum>>
-    shapeGenerator: LineRadial<any>
+    shapeGenerator: LineRadial<RadarSerieDatum<Datum>>
     colorByKey: Record<string, string>
     radiusScale: any
     angleStep: number
