@@ -1,6 +1,6 @@
 import React, { useRef } from 'react'
 import { storiesOf } from '@storybook/react'
-import { generateCountriesData } from '@nivo/generators'
+import { generateCountriesData } from '@orbit-nivo/generators'
 import { ResponsiveBarCanvas } from '../src'
 import { button } from '@storybook/addon-knobs'
 
