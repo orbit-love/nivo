@@ -1,6 +1,6 @@
 {
     "name": "@orbit-nivo/waffle",
-    "version": "0.65.0",
+    "version": "0.66.0",
     "license": "MIT",
     "author": {
         "name": "Raphaël Benitte",
@@ -23,10 +23,10 @@
         "dist/"
     ],
     "dependencies": {
-        "@orbit-nivo/colors": "0.65.0",
-        "@orbit-nivo/core": "0.65.0",
-        "@orbit-nivo/legends": "0.65.0",
-        "@orbit-nivo/tooltip": "0.65.0",
+        "@orbit-nivo/colors": "0.66.0",
+        "@orbit-nivo/core": "0.66.0",
+        "@orbit-nivo/legends": "0.66.0",
+        "@orbit-nivo/tooltip": "0.66.0",
         "lodash.partial": "^4.2.1",
         "lodash.range": "^3.2.0",
         "react-motion": "^0.5.2",
