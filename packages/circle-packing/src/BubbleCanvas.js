@@ -8,7 +8,7 @@
  */
 /* eslint-disable react/prop-types */
 import React, { Component } from 'react'
-import { Container } from '@nivo/core'
+import { Container } from '@orbit-nivo/core'
 import enhance from './enhance'
 
 class BubbleCanvas extends Component {

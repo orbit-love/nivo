@@ -1,6 +1,6 @@
-# `@nivo/geo`
+# `@orbit-nivo/geo`
 
-[![version](https://img.shields.io/npm/v/@nivo/geo.svg?style=flat-square)](https://www.npmjs.com/package/@nivo/geo)
+[![version](https://img.shields.io/npm/v/@orbit-nivo/geo.svg?style=flat-square)](https://www.npmjs.com/package/@orbit-nivo/geo)
 
 ## GeoMap
 

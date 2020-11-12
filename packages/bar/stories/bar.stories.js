@@ -2,10 +2,10 @@ import React, { useState, useEffect } from 'react'
 import { storiesOf } from '@storybook/react'
 import { action } from '@storybook/addon-actions'
 import { withKnobs, select } from '@storybook/addon-knobs'
-import { generateCountriesData, sets } from '@nivo/generators'
+import { generateCountriesData, sets } from '@orbit-nivo/generators'
 import range from 'lodash/range'
 import random from 'lodash/random'
-import { useTheme } from '@nivo/core'
+import { useTheme } from '@orbit-nivo/core'
 import { Bar } from '../src'
 
 const keys = ['hot dogs', 'burgers', 'sandwich', 'kebab', 'fries', 'donut']

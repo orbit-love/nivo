@@ -1,6 +1,6 @@
-# `@nivo/network`
+# `@orbit-nivo/network`
 
-[![version](https://img.shields.io/npm/v/@nivo/network.svg?style=flat-square)](https://www.npmjs.com/package/@nivo/network)
+[![version](https://img.shields.io/npm/v/@orbit-nivo/network.svg?style=flat-square)](https://www.npmjs.com/package/@orbit-nivo/network)
 
 ## Network
 

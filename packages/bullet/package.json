@@ -1,44 +1,44 @@
 {
-  "name": "@nivo/bullet",
-  "version": "0.64.0",
-  "license": "MIT",
-  "author": {
-    "name": "Raphaël Benitte",
-    "url": "https://github.com/plouc"
-  },
-  "keywords": [
-    "nivo",
-    "dataviz",
-    "react",
-    "d3",
-    "charts",
-    "bullet-chart"
-  ],
-  "main": "./dist/nivo-bullet.cjs.js",
-  "module": "./dist/nivo-bullet.es.js",
-  "typings": "./dist/types/index.d.ts",
-  "files": [
-    "README.md",
-    "LICENSE.md",
-    "dist/"
-  ],
-  "dependencies": {
-    "@nivo/axes": "0.64.0",
-    "@nivo/colors": "0.64.0",
-    "@nivo/legends": "0.64.0",
-    "@nivo/tooltip": "0.64.0",
-    "d3-scale": "^3.0.0",
-    "react-spring": "^8.0.27"
-  },
-  "devDependencies": {
-    "@nivo/core": "*",
-    "@types/d3-scale": "^3.2.1"
-  },
-  "peerDependencies": {
-    "@nivo/core": "^0.64.0",
-    "react": ">= 16.8.4 < 17.0.0"
-  },
-  "publishConfig": {
-    "access": "public"
-  }
+    "name": "@orbit-nivo/bullet",
+    "version": "0.64.0",
+    "license": "MIT",
+    "author": {
+        "name": "Raphaël Benitte",
+        "url": "https://github.com/plouc"
+    },
+    "keywords": [
+        "nivo",
+        "dataviz",
+        "react",
+        "d3",
+        "charts",
+        "bullet-chart"
+    ],
+    "main": "./dist/nivo-bullet.cjs.js",
+    "module": "./dist/nivo-bullet.es.js",
+    "typings": "./dist/types/index.d.ts",
+    "files": [
+        "README.md",
+        "LICENSE.md",
+        "dist/"
+    ],
+    "dependencies": {
+        "@orbit-nivo/axes": "0.64.0",
+        "@orbit-nivo/colors": "0.64.0",
+        "@orbit-nivo/legends": "0.64.0",
+        "@orbit-nivo/tooltip": "0.64.0",
+        "d3-scale": "^3.0.0",
+        "react-spring": "^8.0.27"
+    },
+    "devDependencies": {
+        "@orbit-nivo/core": "*",
+        "@types/d3-scale": "^3.2.1"
+    },
+    "peerDependencies": {
+        "@orbit-nivo/core": "^0.64.0",
+        "react": ">= 16.8.4 < 17.0.0"
+    },
+    "publishConfig": {
+        "access": "public"
+    }
 }

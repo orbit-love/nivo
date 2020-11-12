@@ -1,22 +1,22 @@
 # Contributing
 
-- [requirements](#requirements)
-- [setup](#setup)
-- [development](#development)
-  - [storybook](#storybook)
-  - [demo/doc website](#demodoc-website)
-  - [testing](#testing)
-  - [formatting](#formatting)
-  - [linting](#linting)
-  - [screenshots](#screenshots)
-- [website](#website)
-- [deploy](#deploy)
+-   [requirements](#requirements)
+-   [setup](#setup)
+-   [development](#development)
+    -   [storybook](#storybook)
+    -   [demo/doc website](#demodoc-website)
+    -   [testing](#testing)
+    -   [formatting](#formatting)
+    -   [linting](#linting)
+    -   [screenshots](#screenshots)
+-   [website](#website)
+-   [deploy](#deploy)
 
 ## Requirements
 
-- **Node.js**
-- **yarn**
-- **Make** (you also have the option to run the commands manually though)
+-   **Node.js**
+-   **yarn**
+-   **Make** (you also have the option to run the commands manually though)
 
 ## Setup
 
@@ -55,15 +55,15 @@ the version from npm, however if you make some change to the source
 of a package, you'll have to rebuild it to see the changes.
 
 To automate this process, you can start a watcher on the package you're working
-on, for example if you want to make some change on the `@nivo/bar` package,
+on, for example if you want to make some change on the `@orbit-nivo/bar` package,
 you should run `make package-dev-bar` and then start the website `make website`,
 this way each change you make will trigger a build and will be (almost :))
 immedialty visible on the website.
 
 You can also build the packages without running a watcher, you have two options:
 
- 1. Rebuild all the packages via `make packages-build` or…
- 2. Rebuild only a specific package, for example `make package-build-bar` for `@nivo/bar` package
+1.  Rebuild all the packages via `make packages-build` or…
+2.  Rebuild only a specific package, for example `make package-build-bar` for `@orbit-nivo/bar` package
 
 ### Testing
 

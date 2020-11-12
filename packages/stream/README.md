@@ -1,6 +1,6 @@
-# `@nivo/stream`
+# `@orbit-nivo/stream`
 
-[![version](https://img.shields.io/npm/v/@nivo/stream.svg?style=flat-square)](https://www.npmjs.com/package/@nivo/stream)
+[![version](https://img.shields.io/npm/v/@orbit-nivo/stream.svg?style=flat-square)](https://www.npmjs.com/package/@orbit-nivo/stream)
 
 ## Stream
 

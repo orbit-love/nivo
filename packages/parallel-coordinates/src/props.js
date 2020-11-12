@@ -7,8 +7,8 @@
  * file that was distributed with this source code.
  */
 import PropTypes from 'prop-types'
-import { lineCurvePropType } from '@nivo/core'
-import { ordinalColorsPropType } from '@nivo/colors'
+import { lineCurvePropType } from '@orbit-nivo/core'
+import { ordinalColorsPropType } from '@orbit-nivo/colors'
 
 const commonVariablePropTypes = {
     key: PropTypes.string.isRequired,

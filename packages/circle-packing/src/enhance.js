@@ -20,8 +20,8 @@ import {
     getAccessorFor,
     getLabelGenerator,
     bindDefs,
-} from '@nivo/core'
-import { getOrdinalColorScale, getInheritedColorGenerator } from '@nivo/colors'
+} from '@orbit-nivo/core'
+import { getOrdinalColorScale, getInheritedColorGenerator } from '@orbit-nivo/colors'
 import { computeNodes, computeZoom } from './compute'
 import * as props from './props'
 

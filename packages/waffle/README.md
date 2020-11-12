@@ -1,6 +1,6 @@
-# `@nivo/waffle`
+# `@orbit-nivo/waffle`
 
-[![version](https://img.shields.io/npm/v/@nivo/waffle.svg?style=flat-square)](https://www.npmjs.com/package/@nivo/waffle)
+[![version](https://img.shields.io/npm/v/@orbit-nivo/waffle.svg?style=flat-square)](https://www.npmjs.com/package/@orbit-nivo/waffle)
 
 ## Waffle
 

@@ -7,8 +7,8 @@
  * file that was distributed with this source code.
  */
 import React from 'react'
-import { generateLibTree } from '@nivo/generators'
-import { ResponsiveSunburst } from '@nivo/sunburst'
+import { generateLibTree } from '@orbit-nivo/generators'
+import { ResponsiveSunburst } from '@orbit-nivo/sunburst'
 import { HomeItem, HomeItemLabel } from './styled'
 
 const HomeSunburst = ({ colors }) => {

@@ -16,10 +16,10 @@ import {
     degreesToRadians,
     getRelativeCursor,
     getHoveredArc,
-} from '@nivo/core'
-import { useInheritedColor } from '@nivo/colors'
-import { renderLegendToCanvas } from '@nivo/legends'
-import { useTooltip } from '@nivo/tooltip'
+} from '@orbit-nivo/core'
+import { useInheritedColor } from '@orbit-nivo/colors'
+import { renderLegendToCanvas } from '@orbit-nivo/legends'
+import { useTooltip } from '@orbit-nivo/tooltip'
 import { useChord, useChordSelection, useChordLayerContext } from './hooks'
 import { ChordCanvasPropTypes, ChordCanvasDefaultProps } from './props'
 

@@ -1,6 +1,6 @@
-# `@nivo/sunburst`
+# `@orbit-nivo/sunburst`
 
-[![version](https://img.shields.io/npm/v/@nivo/sunburst.svg?style=flat-square)](https://www.npmjs.com/package/@nivo/sunburst)
+[![version](https://img.shields.io/npm/v/@orbit-nivo/sunburst.svg?style=flat-square)](https://www.npmjs.com/package/@orbit-nivo/sunburst)
 
 ## Sunburst
 

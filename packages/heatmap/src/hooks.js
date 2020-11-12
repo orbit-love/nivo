@@ -1,7 +1,7 @@
 import { useState, useMemo } from 'react'
 import { scaleOrdinal, scaleLinear } from 'd3-scale'
-import { useTheme, getAccessorFor, guessQuantizeColorScale } from '@nivo/core'
-import { useInheritedColor } from '@nivo/colors'
+import { useTheme, getAccessorFor, guessQuantizeColorScale } from '@orbit-nivo/core'
+import { useInheritedColor } from '@orbit-nivo/colors'
 
 const computeX = (column, cellWidth, padding) => {
     return column * cellWidth + cellWidth * 0.5 + padding * column + padding

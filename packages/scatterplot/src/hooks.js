@@ -7,10 +7,10 @@
  * file that was distributed with this source code.
  */
 import { useMemo } from 'react'
-import { useValueFormatter } from '@nivo/core'
-import { useOrdinalColorScale } from '@nivo/colors'
-import { computeXYScalesForSeries } from '@nivo/scales'
-import { useAnnotations } from '@nivo/annotations'
+import { useValueFormatter } from '@orbit-nivo/core'
+import { useOrdinalColorScale } from '@orbit-nivo/colors'
+import { computeXYScalesForSeries } from '@orbit-nivo/scales'
+import { useAnnotations } from '@orbit-nivo/annotations'
 import { computePoints, getNodeSizeGenerator } from './compute'
 
 const useNodeSize = size => useMemo(() => getNodeSizeGenerator(size), [size])

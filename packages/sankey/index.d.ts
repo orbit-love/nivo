@@ -7,11 +7,11 @@
  * file that was distributed with this source code.
  */
 import * as React from 'react'
-import { Theme, CssMixBlendMode, Box, Dimensions, MotionProps } from '@nivo/core'
-import { OrdinalColorsInstruction, InheritedColorProp } from '@nivo/colors'
-import { LegendProps } from '@nivo/legends'
+import { Theme, CssMixBlendMode, Box, Dimensions, MotionProps } from '@orbit-nivo/core'
+import { OrdinalColorsInstruction, InheritedColorProp } from '@orbit-nivo/colors'
+import { LegendProps } from '@orbit-nivo/legends'
 
-declare module '@nivo/sankey' {
+declare module '@orbit-nivo/sankey' {
     interface SharedProps extends Data, MotionProps, SankeyProps {}
 
     export class Sankey extends React.Component<SharedProps & Dimensions> {}

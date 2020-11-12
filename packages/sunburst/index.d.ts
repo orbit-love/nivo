@@ -1,7 +1,7 @@
 import * as React from 'react'
-import { Dimensions, Box, ColorProps, MotionProps } from '@nivo/core'
+import { Dimensions, Box, ColorProps, MotionProps } from '@orbit-nivo/core'
 
-declare module '@nivo/sunburst' {
+declare module '@orbit-nivo/sunburst' {
     export interface SunburstDataNode {
         // optional because it works without a color
         // however it does throw a warning if no value is set and the value is requested

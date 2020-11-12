@@ -13,11 +13,11 @@ import {
     useTheme,
     getRelativeCursor,
     isCursorInRect,
-} from '@nivo/core'
-import { renderAxesToCanvas, renderGridLinesToCanvas } from '@nivo/axes'
-import { renderLegendToCanvas } from '@nivo/legends'
-import { useTooltip } from '@nivo/tooltip'
-import { useVoronoiMesh, renderVoronoiToCanvas, renderVoronoiCellToCanvas } from '@nivo/voronoi'
+} from '@orbit-nivo/core'
+import { renderAxesToCanvas, renderGridLinesToCanvas } from '@orbit-nivo/axes'
+import { renderLegendToCanvas } from '@orbit-nivo/legends'
+import { useTooltip } from '@orbit-nivo/tooltip'
+import { useVoronoiMesh, renderVoronoiToCanvas, renderVoronoiCellToCanvas } from '@orbit-nivo/voronoi'
 import { LineCanvasPropTypes, LineCanvasDefaultProps } from './props'
 import { useLine } from './hooks'
 

@@ -25,13 +25,13 @@ import {
     getLabelGenerator,
     Container,
     SvgWrapper,
-} from '@nivo/core'
+} from '@orbit-nivo/core'
 import {
     getOrdinalColorScale,
     ordinalColorsPropType,
     inheritedColorPropType,
     getInheritedColorGenerator,
-} from '@nivo/colors'
+} from '@orbit-nivo/colors'
 import SunburstLabels from './SunburstLabels'
 import SunburstArc from './SunburstArc'
 

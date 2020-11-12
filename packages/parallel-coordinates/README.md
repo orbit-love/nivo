@@ -1,6 +1,6 @@
-# `@nivo/parallel-coordinates`
+# `@orbit-nivo/parallel-coordinates`
 
-[![version](https://img.shields.io/npm/v/@nivo/parallel-coordinates.svg?style=flat-square)](https://www.npmjs.com/package/@nivo/parallel-coordinates)
+[![version](https://img.shields.io/npm/v/@orbit-nivo/parallel-coordinates.svg?style=flat-square)](https://www.npmjs.com/package/@orbit-nivo/parallel-coordinates)
 
 ## ParallelCoordinates
 

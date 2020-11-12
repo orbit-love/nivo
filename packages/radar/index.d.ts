@@ -7,11 +7,11 @@
  * file that was distributed with this source code.
  */
 import { Component } from 'react'
-import { Box, MotionProps, Dimensions, Theme, CssMixBlendMode } from '@nivo/core'
-import { OrdinalColorsInstruction, InheritedColorProp } from '@nivo/colors'
-import { LegendProps } from '@nivo/legends'
+import { Box, MotionProps, Dimensions, Theme, CssMixBlendMode } from '@orbit-nivo/core'
+import { OrdinalColorsInstruction, InheritedColorProp } from '@orbit-nivo/colors'
+import { LegendProps } from '@orbit-nivo/legends'
 
-declare module '@nivo/radar' {
+declare module '@orbit-nivo/radar' {
     export type GridLabelProps = {
         id: string
         anchor: 'start' | 'middle' | 'end'

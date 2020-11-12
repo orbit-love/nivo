@@ -7,12 +7,12 @@
  * file that was distributed with this source code.
  */
 import * as React from 'react'
-import { Dimensions, Box, Theme, MotionProps } from '@nivo/core'
-import { InheritedColorProp } from '@nivo/colors'
+import { Dimensions, Box, Theme, MotionProps } from '@orbit-nivo/core'
+import { InheritedColorProp } from '@orbit-nivo/colors'
 
 type Omit<T, K extends keyof T> = Pick<T, Exclude<keyof T, K>>
 
-declare module '@nivo/network' {
+declare module '@orbit-nivo/network' {
     export interface InputNode {
         id: string
         [key: string]: any

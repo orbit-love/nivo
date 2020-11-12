@@ -1,6 +1,6 @@
 import React, { CSSProperties } from 'react'
 // @ts-ignore
-import { useTheme } from '@nivo/core'
+import { useTheme } from '@orbit-nivo/core'
 import { usePieSliceLabels } from './hooks'
 import { CompletePieSvgProps, ComputedDatum } from './types'
 

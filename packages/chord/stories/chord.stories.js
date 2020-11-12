@@ -1,7 +1,7 @@
 import React from 'react'
 import { storiesOf } from '@storybook/react'
-import { generateChordData } from '@nivo/generators'
-import { TableTooltip, BasicTooltip, Chip } from '@nivo/tooltip'
+import { generateChordData } from '@orbit-nivo/generators'
+import { TableTooltip, BasicTooltip, Chip } from '@orbit-nivo/tooltip'
 import { Chord } from '../src'
 
 const commonProperties = {

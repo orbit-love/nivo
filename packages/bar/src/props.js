@@ -7,15 +7,15 @@
  * file that was distributed with this source code.
  */
 import PropTypes from 'prop-types'
-import { noop, defsPropTypes } from '@nivo/core'
+import { noop, defsPropTypes } from '@orbit-nivo/core'
 import {
     ordinalColorsPropType,
     colorPropertyAccessorPropType,
     inheritedColorPropType,
-} from '@nivo/colors'
-import { axisPropType } from '@nivo/axes'
-import { LegendPropShape } from '@nivo/legends'
-import { scalePropType } from '@nivo/scales'
+} from '@orbit-nivo/colors'
+import { axisPropType } from '@orbit-nivo/axes'
+import { LegendPropShape } from '@orbit-nivo/legends'
+import { scalePropType } from '@orbit-nivo/scales'
 import BarItem from './BarItem'
 
 export const BarPropTypes = {

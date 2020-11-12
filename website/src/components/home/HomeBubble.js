@@ -7,8 +7,8 @@
  * file that was distributed with this source code.
  */
 import React from 'react'
-import { generateLibTree } from '@nivo/generators'
-import { ResponsiveBubbleCanvas } from '@nivo/circle-packing'
+import { generateLibTree } from '@orbit-nivo/generators'
+import { ResponsiveBubbleCanvas } from '@orbit-nivo/circle-packing'
 import { HomeItem, HomeItemLabel } from './styled'
 
 const HomeBubble = ({ reversedColors }) => {

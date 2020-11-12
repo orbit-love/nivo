@@ -13,12 +13,12 @@ import {
     withContainer,
     useDimensions,
     useTheme,
-} from '@nivo/core'
-import { useInheritedColor } from '@nivo/colors'
-import { renderAxesToCanvas, renderGridLinesToCanvas } from '@nivo/axes'
-import { useComputedAnnotations, renderAnnotationsToCanvas } from '@nivo/annotations'
-import { useTooltip } from '@nivo/tooltip'
-import { useVoronoiMesh, renderVoronoiToCanvas, renderVoronoiCellToCanvas } from '@nivo/voronoi'
+} from '@orbit-nivo/core'
+import { useInheritedColor } from '@orbit-nivo/colors'
+import { renderAxesToCanvas, renderGridLinesToCanvas } from '@orbit-nivo/axes'
+import { useComputedAnnotations, renderAnnotationsToCanvas } from '@orbit-nivo/annotations'
+import { useTooltip } from '@orbit-nivo/tooltip'
+import { useVoronoiMesh, renderVoronoiToCanvas, renderVoronoiCellToCanvas } from '@orbit-nivo/voronoi'
 import { SwarmPlotCanvasDefaultProps, SwarmPlotCanvasPropTypes } from './props'
 import { useSwarmPlot, useBorderWidth, useSwarmPlotAnnotations } from './hooks'
 import SwarmPlotTooltip from './SwarmPlotTooltip'

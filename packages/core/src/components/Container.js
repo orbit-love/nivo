@@ -8,7 +8,7 @@
  */
 import React, { useRef, useMemo, useCallback } from 'react'
 import PropTypes from 'prop-types'
-import { tooltipContext, useTooltipHandlers, TooltipWrapper } from '@nivo/tooltip'
+import { tooltipContext, useTooltipHandlers, TooltipWrapper } from '@orbit-nivo/tooltip'
 import noop from '../lib/noop'
 import { ThemeProvider } from '../theming'
 import { MotionConfigProvider } from '../motion'

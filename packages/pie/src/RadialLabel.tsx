@@ -2,7 +2,7 @@ import React from 'react'
 // @ts-ignore
 import { line } from 'd3-shape'
 // @ts-ignore
-import { textPropsByEngine, useTheme } from '@nivo/core'
+import { textPropsByEngine, useTheme } from '@orbit-nivo/core'
 import { RadialLabelData, Point } from './types'
 
 const lineGenerator = line()

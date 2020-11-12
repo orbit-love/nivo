@@ -8,8 +8,8 @@
  */
 import React, { useEffect, useRef } from 'react'
 import PropTypes from 'prop-types'
-import { useDimensions, useTheme, withContainer } from '@nivo/core'
-import { renderAxisToCanvas } from '@nivo/axes'
+import { useDimensions, useTheme, withContainer } from '@orbit-nivo/core'
+import { renderAxisToCanvas } from '@orbit-nivo/axes'
 import { commonPropTypes, commonDefaultProps } from './props'
 import { useParallelCoordinates } from './hooks'
 

@@ -1,7 +1,7 @@
 import * as React from 'react'
-import { Box, Dimensions, Theme, SvgDefsAndFill } from '@nivo/core'
-import { OrdinalColorsInstruction, InheritedColorProp } from '@nivo/colors'
-import { LegendProps } from '@nivo/legends'
+import { Box, Dimensions, Theme, SvgDefsAndFill } from '@orbit-nivo/core'
+import { OrdinalColorsInstruction, InheritedColorProp } from '@orbit-nivo/colors'
+import { LegendProps } from '@orbit-nivo/legends'
 
 export type DatumId = string | number
 export type DatumValue = number

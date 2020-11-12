@@ -6,8 +6,8 @@
  * For the full copyright and license information, please view the LICENSE
  * file that was distributed with this source code.
  */
-import { areaCurvePropKeys, stackOrderPropKeys, stackOffsetPropKeys } from '@nivo/core'
-import { StreamDefaultProps as defaults } from '@nivo/stream'
+import { areaCurvePropKeys, stackOrderPropKeys, stackOffsetPropKeys } from '@orbit-nivo/core'
+import { StreamDefaultProps as defaults } from '@orbit-nivo/stream'
 import {
     themeProperty,
     axesProperties,

@@ -7,8 +7,8 @@ import {
     stackOrderFromProp,
     stackOffsetFromProp,
     useValueFormatter,
-} from '@nivo/core'
-import { useInheritedColor, useOrdinalColorScale } from '@nivo/colors'
+} from '@orbit-nivo/core'
+import { useInheritedColor, useOrdinalColorScale } from '@orbit-nivo/colors'
 
 const stackMin = layers =>
     Math.min(...layers.reduce((acc, layer) => [...acc, ...layer.map(d => d[0])], []))

@@ -7,8 +7,8 @@
  * file that was distributed with this source code.
  */
 import React from 'react'
-import { generateProgrammingLanguageStats } from '@nivo/generators'
-import { ResponsivePie } from '@nivo/pie'
+import { generateProgrammingLanguageStats } from '@orbit-nivo/generators'
+import { ResponsivePie } from '@orbit-nivo/pie'
 import { HomeItem, HomeItemLabel } from './styled'
 
 const HomePie = ({ colors, nivoTheme }) => {

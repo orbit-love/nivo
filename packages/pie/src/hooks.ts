@@ -23,7 +23,7 @@ import {
     absoluteAngleRadians,
     // @ts-ignore
     absoluteAngleDegrees,
-} from '@nivo/core'
+} from '@orbit-nivo/core'
 import {
     // @ts-ignore
     getOrdinalColorScale,
@@ -31,7 +31,7 @@ import {
     useInheritedColor,
     OrdinalColorsInstruction,
     InheritedColorProp,
-} from '@nivo/colors'
+} from '@orbit-nivo/colors'
 import { defaultProps } from './props'
 import {
     CompletePieSvgProps,

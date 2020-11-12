@@ -1,8 +1,8 @@
 import React from 'react'
-import { ResponsiveBar } from '@nivo/bar'
-import { ResponsiveStream } from '@nivo/stream'
-import { ResponsiveTreeMap } from '@nivo/treemap'
-import { generateCountriesData } from '@nivo/generators'
+import { ResponsiveBar } from '@orbit-nivo/bar'
+import { ResponsiveStream } from '@orbit-nivo/stream'
+import { ResponsiveTreeMap } from '@orbit-nivo/treemap'
+import { generateCountriesData } from '@orbit-nivo/generators'
 import { FullWidthBanner } from '../../styled'
 import { useTheme } from '../../../theming/context'
 

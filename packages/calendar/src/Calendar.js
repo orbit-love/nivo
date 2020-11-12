@@ -7,8 +7,8 @@
  * file that was distributed with this source code.
  */
 import React from 'react'
-import { SvgWrapper, useTheme, useDimensions, withContainer, useValueFormatter } from '@nivo/core'
-import { BoxLegendSvg } from '@nivo/legends'
+import { SvgWrapper, useTheme, useDimensions, withContainer, useValueFormatter } from '@orbit-nivo/core'
+import { BoxLegendSvg } from '@orbit-nivo/legends'
 import { CalendarPropTypes, CalendarDefaultProps } from './props'
 import CalendarYearLegends from './CalendarYearLegends'
 import CalendarMonthPath from './CalendarMonthPath'

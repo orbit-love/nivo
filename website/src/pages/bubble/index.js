@@ -7,9 +7,9 @@
  * file that was distributed with this source code.
  */
 import React from 'react'
-import { patternLinesDef } from '@nivo/core'
-import { ResponsiveBubble, BubbleDefaultProps } from '@nivo/circle-packing'
-import { generateLibTree } from '@nivo/generators'
+import { patternLinesDef } from '@orbit-nivo/core'
+import { ResponsiveBubble, BubbleDefaultProps } from '@orbit-nivo/circle-packing'
+import { generateLibTree } from '@orbit-nivo/generators'
 import ComponentTemplate from '../../components/components/ComponentTemplate'
 import meta from '../../data/components/bubble/meta.yml'
 import mapper from '../../data/components/bubble/mapper'

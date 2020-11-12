@@ -1,6 +1,6 @@
 import React from 'react'
-import { ResponsiveBar } from '@nivo/bar'
-import { generateCountriesData } from '@nivo/generators'
+import { ResponsiveBar } from '@orbit-nivo/bar'
+import { generateCountriesData } from '@orbit-nivo/generators'
 import { colors } from '../../constants'
 
 const Bar = () => (

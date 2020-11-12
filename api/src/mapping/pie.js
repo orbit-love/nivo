@@ -9,7 +9,7 @@
 'use strict'
 
 const Joi = require('joi')
-const { Pie } = require('@nivo/pie')
+const { Pie } = require('@orbit-nivo/pie')
 const { ordinalColors, inheritedColor } = require('./commons/colors')
 const { dimensions } = require('./commons/dimensions')
 

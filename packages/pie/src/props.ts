@@ -1,4 +1,4 @@
-import { OrdinalColorsInstruction } from '@nivo/colors'
+import { OrdinalColorsInstruction } from '@orbit-nivo/colors'
 import { PieTooltip } from './PieTooltip'
 
 export const defaultProps = {

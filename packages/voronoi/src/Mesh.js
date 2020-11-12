@@ -8,7 +8,7 @@
  */
 import React, { useRef, useState, useCallback, useMemo } from 'react'
 import PropTypes from 'prop-types'
-import { getRelativeCursor } from '@nivo/core'
+import { getRelativeCursor } from '@orbit-nivo/core'
 import { useVoronoiMesh } from './hooks'
 
 const Mesh = ({

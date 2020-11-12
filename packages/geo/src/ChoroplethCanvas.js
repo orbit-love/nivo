@@ -8,9 +8,9 @@
  */
 import React, { memo, useRef, useEffect, useCallback } from 'react'
 import { geoContains } from 'd3-geo'
-import { getRelativeCursor, withContainer, useDimensions, useTheme } from '@nivo/core'
-import { renderLegendToCanvas } from '@nivo/legends'
-import { useTooltip } from '@nivo/tooltip'
+import { getRelativeCursor, withContainer, useDimensions, useTheme } from '@orbit-nivo/core'
+import { renderLegendToCanvas } from '@orbit-nivo/legends'
+import { useTooltip } from '@orbit-nivo/tooltip'
 import { ChoroplethCanvasDefaultProps, ChoroplethCanvasPropTypes } from './props'
 import { useGeoMap, useChoropleth } from './hooks'
 

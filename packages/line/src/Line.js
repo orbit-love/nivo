@@ -14,11 +14,11 @@ import {
     useTheme,
     SvgWrapper,
     CartesianMarkers,
-} from '@nivo/core'
-import { useInheritedColor } from '@nivo/colors'
-import { Axes, Grid } from '@nivo/axes'
-import { BoxLegendSvg } from '@nivo/legends'
-import { Crosshair } from '@nivo/tooltip'
+} from '@orbit-nivo/core'
+import { useInheritedColor } from '@orbit-nivo/colors'
+import { Axes, Grid } from '@orbit-nivo/axes'
+import { BoxLegendSvg } from '@orbit-nivo/legends'
+import { Crosshair } from '@orbit-nivo/tooltip'
 import { useLine } from './hooks'
 import { LinePropTypes, LineDefaultProps } from './props'
 import Areas from './Areas'

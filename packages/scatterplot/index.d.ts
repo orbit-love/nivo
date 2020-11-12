@@ -14,15 +14,15 @@ import {
     MotionProps,
     CartesianMarkerProps,
     CssMixBlendMode,
-} from '@nivo/core'
-import { OrdinalColorsInstruction } from '@nivo/colors'
-import { LegendProps } from '@nivo/legends'
-import { AxisProps, GridValues } from '@nivo/axes'
-import { Scale } from '@nivo/scales'
+} from '@orbit-nivo/core'
+import { OrdinalColorsInstruction } from '@orbit-nivo/colors'
+import { LegendProps } from '@orbit-nivo/legends'
+import { AxisProps, GridValues } from '@orbit-nivo/axes'
+import { Scale } from '@orbit-nivo/scales'
 
 type Omit<T, K extends keyof T> = Pick<T, Exclude<keyof T, K>>
 
-declare module '@nivo/scatterplot' {
+declare module '@orbit-nivo/scatterplot' {
     export type Value = number | string | Date
     export type ValueFormatter = (value: Value) => string | number
 

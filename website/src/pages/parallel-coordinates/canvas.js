@@ -8,8 +8,8 @@
  */
 import React, { useState, useCallback } from 'react'
 import merge from 'lodash/merge'
-import { ResponsiveParallelCoordinatesCanvas, commonDefaultProps } from '@nivo/parallel-coordinates'
-import { generateParallelCoordinatesData } from '@nivo/generators'
+import { ResponsiveParallelCoordinatesCanvas, commonDefaultProps } from '@orbit-nivo/parallel-coordinates'
+import { generateParallelCoordinatesData } from '@orbit-nivo/generators'
 import ComponentTemplate from '../../components/components/ComponentTemplate'
 import meta from '../../data/components/parallel-coordinates/meta.yml'
 import mapper from '../../data/components/parallel-coordinates/mapper'

@@ -16,13 +16,13 @@ import {
     StackOffset,
     AreaCurve,
     SvgDefsAndFill,
-} from '@nivo/core'
-import { OrdinalColorsInstruction, InheritedColorProp } from '@nivo/colors'
-import { LegendProps } from '@nivo/legends'
-import { Scale } from '@nivo/scales'
-import { AxisProps } from '@nivo/axes'
+} from '@orbit-nivo/core'
+import { OrdinalColorsInstruction, InheritedColorProp } from '@orbit-nivo/colors'
+import { LegendProps } from '@orbit-nivo/legends'
+import { Scale } from '@orbit-nivo/scales'
+import { AxisProps } from '@orbit-nivo/axes'
 
-declare module '@nivo/stream' {
+declare module '@orbit-nivo/stream' {
     export type TooltipFormatter<T> = (value: T) => React.ReactNode
     export type TooltipLabel<T> = (value: T) => string
 

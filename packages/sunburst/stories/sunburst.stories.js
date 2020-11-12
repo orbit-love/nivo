@@ -2,7 +2,7 @@ import React from 'react'
 import { storiesOf } from '@storybook/react'
 import { action } from '@storybook/addon-actions'
 import { withKnobs } from '@storybook/addon-knobs'
-import { generateLibTree } from '@nivo/generators'
+import { generateLibTree } from '@orbit-nivo/generators'
 import { Sunburst } from '../src'
 
 const commonProperties = {

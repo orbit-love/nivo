@@ -7,8 +7,8 @@
  * file that was distributed with this source code.
  */
 import React, { useRef, useEffect } from 'react'
-import { withContainer, useDimensions, useTheme } from '@nivo/core'
-import { useInheritedColor } from '@nivo/colors'
+import { withContainer, useDimensions, useTheme } from '@orbit-nivo/core'
+import { useInheritedColor } from '@orbit-nivo/colors'
 import { NetworkCanvasPropTypes, NetworkCanvasDefaultProps } from './props'
 import { useNetwork, useNodeColor, useLinkThickness } from './hooks'
 

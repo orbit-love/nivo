@@ -7,12 +7,12 @@
  * file that was distributed with this source code.
  */
 import PropTypes from 'prop-types'
-import { noop, defsPropTypes } from '@nivo/core'
+import { noop, defsPropTypes } from '@orbit-nivo/core'
 import {
     ordinalColorsPropType,
     colorPropertyAccessorPropType,
     inheritedColorPropType,
-} from '@nivo/colors'
+} from '@orbit-nivo/colors'
 import BubbleNode from './BubbleNode'
 import BubbleHtmlNode from './BubbleHtmlNode'
 

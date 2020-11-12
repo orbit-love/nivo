@@ -9,7 +9,7 @@
 import React, { memo } from 'react'
 import PropTypes from 'prop-types'
 import { animated } from 'react-spring'
-import { useAnimatedPath, useTheme } from '@nivo/core'
+import { useAnimatedPath, useTheme } from '@orbit-nivo/core'
 
 const AnnotationLink = memo(({ isOutline, ...props }) => {
     const theme = useTheme()

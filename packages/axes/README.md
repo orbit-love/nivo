@@ -1,1 +1,1 @@
-# `@nivo/axes`
+# `@orbit-nivo/axes`

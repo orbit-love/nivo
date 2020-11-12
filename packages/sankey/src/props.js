@@ -8,9 +8,9 @@
  */
 import PropTypes from 'prop-types'
 import { sankeyCenter, sankeyJustify, sankeyLeft, sankeyRight } from 'd3-sankey'
-import { noop, blendModePropType, motionPropTypes } from '@nivo/core'
-import { ordinalColorsPropType, inheritedColorPropType } from '@nivo/colors'
-import { LegendPropShape } from '@nivo/legends'
+import { noop, blendModePropType, motionPropTypes } from '@orbit-nivo/core'
+import { ordinalColorsPropType, inheritedColorPropType } from '@orbit-nivo/colors'
+import { LegendPropShape } from '@orbit-nivo/legends'
 
 export const sankeyAlignmentPropMapping = {
     center: sankeyCenter,

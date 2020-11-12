@@ -1,7 +1,7 @@
 import * as React from 'react'
 import { OpaqueInterpolation } from 'react-spring'
 
-declare module '@nivo/core' {
+declare module '@orbit-nivo/core' {
     export type DatumValue = string | number | Date
 
     export interface Dimensions {

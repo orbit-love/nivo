@@ -1,5 +1,5 @@
 import React from 'react'
-import { Annotation } from '@nivo/annotations'
+import { Annotation } from '@orbit-nivo/annotations'
 import { useScatterPlotAnnotations } from './hooks'
 
 const ScatterPlotAnnotations = ({ nodes, annotations, innerWidth, innerHeight }) => {

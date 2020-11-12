@@ -10,7 +10,7 @@ import React, { memo, useMemo } from 'react'
 import PropTypes from 'prop-types'
 import { lineRadial, curveLinearClosed } from 'd3-shape'
 import { animated, useSpring } from 'react-spring'
-import { useTheme, useAnimatedPath, useMotionConfig } from '@nivo/core'
+import { useTheme, useAnimatedPath, useMotionConfig } from '@orbit-nivo/core'
 
 const RadarGridLevelCircular = memo(({ radius }) => {
     const theme = useTheme()

@@ -9,8 +9,8 @@
 'use strict'
 
 const Joi = require('joi')
-const { Line } = require('@nivo/line')
-const { curvePropKeys } = require('@nivo/core')
+const { Line } = require('@orbit-nivo/line')
+const { curvePropKeys } = require('@orbit-nivo/core')
 const { scale } = require('./commons/scales')
 const { ordinalColors, inheritedColor } = require('./commons/colors')
 const { dimensions } = require('./commons/dimensions')

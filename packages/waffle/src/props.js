@@ -7,9 +7,9 @@
  * file that was distributed with this source code.
  */
 import PropTypes from 'prop-types'
-import { defsPropTypes, noop } from '@nivo/core'
-import { ordinalColorsPropType, inheritedColorPropType } from '@nivo/colors'
-import { LegendPropShape } from '@nivo/legends'
+import { defsPropTypes, noop } from '@orbit-nivo/core'
+import { ordinalColorsPropType, inheritedColorPropType } from '@orbit-nivo/colors'
+import { LegendPropShape } from '@orbit-nivo/legends'
 import WaffleCell from './WaffleCell'
 import WaffleCellHtml from './WaffleCellHtml'
 

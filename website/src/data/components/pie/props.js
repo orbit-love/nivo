@@ -6,7 +6,7 @@
  * For the full copyright and license information, please view the LICENSE
  * file that was distributed with this source code.
  */
-import { defaultProps as defaults } from '@nivo/pie'
+import { defaultProps as defaults } from '@orbit-nivo/pie'
 import {
     themeProperty,
     defsProperties,

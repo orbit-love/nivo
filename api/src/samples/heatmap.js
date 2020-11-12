@@ -7,7 +7,7 @@
  * file that was distributed with this source code.
  */
 'use strict'
-const { generateCountriesData } = require('@nivo/generators')
+const { generateCountriesData } = require('@orbit-nivo/generators')
 
 const keys = [
     'hot dogs',

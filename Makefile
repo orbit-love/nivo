@@ -112,7 +112,7 @@ lint: ##@0 run eslint & tslint
 ########################################################################################################################
 
 package-lint-%: ##@1 packages run eslint on package
-	@echo "${YELLOW}Running eslint on package ${WHITE}@nivo/${*}${RESET}"
+	@echo "${YELLOW}Running eslint on package ${WHITE}@orbit-nivo/${*}${RESET}"
 	@./node_modules/.bin/eslint ./packages/${*}/{src,tests}
 
 packages-lint: ##@1 packages run eslint on all packages
@@ -149,16 +149,16 @@ packages-build: packages-types ##@1 packages build all packages
 package-types-%: ##@1 packages build a package types
 	@if [ -f "./packages/${*}/tsconfig.json" ]; \
     then \
-        echo "${YELLOW}Building TypeScript types for package ${WHITE}@nivo/${*}${RESET}"; \
+        echo "${YELLOW}Building TypeScript types for package ${WHITE}@orbit-nivo/${*}${RESET}"; \
         rm -rf ./packages/${*}/dist/types; \
         rm -rf ./packages/${*}/dist/tsconfig.tsbuildinfo; \
         yarn tsc -b ./packages/${*}; \
     else \
-        echo "${YELLOW}Package ${WHITE}@nivo/${*}${RESET}${YELLOW} does not have tsconfig, skipping"; \
+        echo "${YELLOW}Package ${WHITE}@orbit-nivo/${*}${RESET}${YELLOW} does not have tsconfig, skipping"; \
     fi;
 
 package-build-%: package-types-% ##@1 packages build a package
-	@echo "${YELLOW}Building package ${WHITE}@nivo/${*}${RESET}"
+	@echo "${YELLOW}Building package ${WHITE}@orbit-nivo/${*}${RESET}"
 	@-rm -rf ./packages/${*}/dist/nivo-${*}*
 	@export PACKAGE=${*}; NODE_ENV=production BABEL_ENV=production ./node_modules/.bin/rollup -c conf/rollup.config.js
 
@@ -178,7 +178,7 @@ packages-publish-next: ##@1 packages publish all packages for @next npm tag
 	@./node_modules/.bin/lerna publish --exact --npm-tag=next
 
 package-watch-%: ##@1 packages build package (es flavor) on change, eg. `package-watch-bar`
-	@echo "${YELLOW}Running build watcher for package ${WHITE}@nivo/${*}${RESET}"
+	@echo "${YELLOW}Running build watcher for package ${WHITE}@orbit-nivo/${*}${RESET}"
 	@rm -rf ./packages/${*}/cjs
 	@rm -rf ./packages/${*}/umd
 	@export PACKAGE=${*}; NODE_ENV=development BABEL_ENV=development ./node_modules/.bin/rollup -c conf/rollup.config.js -w
@@ -186,7 +186,7 @@ package-watch-%: ##@1 packages build package (es flavor) on change, eg. `package
 package-dev-%: ##@1 packages setup package for development, link to website, run watcher
 	@echo "${YELLOW}Preparing package ${WHITE}${*}${YELLOW} for development${RESET}"
 	@cd packages/${*} && yarn link
-	@cd examples/typescript && yarn link @nivo/${*}
+	@cd examples/typescript && yarn link @orbit-nivo/${*}
 	@$(MAKE) package-watch-${*}
 
 ########################################################################################################################

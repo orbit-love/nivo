@@ -9,7 +9,7 @@
 import React, { memo } from 'react'
 import PropTypes from 'prop-types'
 import { useSpring, animated } from 'react-spring'
-import { useAnimatedPath, useMotionConfig, blendModePropType } from '@nivo/core'
+import { useAnimatedPath, useMotionConfig, blendModePropType } from '@orbit-nivo/core'
 import { useSerieHandlers } from './hooks'
 
 const Area = ({

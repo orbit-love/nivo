@@ -8,8 +8,8 @@
  */
 import React, { memo, useMemo } from 'react'
 import PropTypes from 'prop-types'
-import { blendModePropType } from '@nivo/core'
-import { useTooltip } from '@nivo/tooltip'
+import { blendModePropType } from '@orbit-nivo/core'
+import { useTooltip } from '@orbit-nivo/tooltip'
 
 const ChordRibbon = memo(
     ({

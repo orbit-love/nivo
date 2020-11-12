@@ -7,9 +7,9 @@
  * file that was distributed with this source code.
  */
 import PropTypes from 'prop-types'
-import { areaCurvePropType, stackOrderPropType, stackOffsetPropType } from '@nivo/core'
-import { ordinalColorsPropType, inheritedColorPropType } from '@nivo/colors'
-import { LegendPropShape } from '@nivo/legends'
+import { areaCurvePropType, stackOrderPropType, stackOffsetPropType } from '@orbit-nivo/core'
+import { ordinalColorsPropType, inheritedColorPropType } from '@orbit-nivo/colors'
+import { LegendPropShape } from '@orbit-nivo/legends'
 import StreamDotsItem from './StreamDotsItem'
 
 export const StreamPropTypes = {

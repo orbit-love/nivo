@@ -1,7 +1,7 @@
 import * as React from 'react'
-import { Dimensions, Box, Theme } from '@nivo/core'
+import { Dimensions, Box, Theme } from '@orbit-nivo/core'
 
-declare module '@nivo/voronoi' {
+declare module '@orbit-nivo/voronoi' {
     export interface VoronoiDatum {
         id: string | number
         x: number

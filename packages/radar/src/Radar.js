@@ -15,9 +15,9 @@ import {
     useDimensions,
     getAccessorFor,
     SvgWrapper,
-} from '@nivo/core'
-import { useOrdinalColorScale } from '@nivo/colors'
-import { BoxLegendSvg } from '@nivo/legends'
+} from '@orbit-nivo/core'
+import { useOrdinalColorScale } from '@orbit-nivo/colors'
+import { BoxLegendSvg } from '@orbit-nivo/legends'
 import RadarShapes from './RadarShapes'
 import RadarGrid from './RadarGrid'
 import RadarTooltip from './RadarTooltip'

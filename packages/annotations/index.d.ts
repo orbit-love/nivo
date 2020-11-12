@@ -7,10 +7,10 @@
  * file that was distributed with this source code.
  */
 import { Component, ReactNode } from 'react'
-import { MotionProps } from '@nivo/core'
-import { OrdinalColorsInstruction, InheritedColorProp } from '@nivo/colors'
+import { MotionProps } from '@orbit-nivo/core'
+import { OrdinalColorsInstruction, InheritedColorProp } from '@orbit-nivo/colors'
 
-declare module '@nivo/annotations' {
+declare module '@orbit-nivo/annotations' {
     export type AnnotationType = 'circle' | 'dot' | 'rect'
 
     export type NoteCoordinate = number | { abs: number | string }

@@ -7,7 +7,7 @@
  * file that was distributed with this source code.
  */
 import { spring } from 'react-motion'
-import { interpolateColor } from '@nivo/colors'
+import { interpolateColor } from '@orbit-nivo/colors'
 
 export const nodeWillEnter = ({ data }) => ({
     scale: 0,

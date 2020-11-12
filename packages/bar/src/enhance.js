@@ -16,8 +16,8 @@ import {
     withMotion,
     getAccessorFor,
     getLabelGenerator,
-} from '@nivo/core'
-import { getOrdinalColorScale, getInheritedColorGenerator } from '@nivo/colors'
+} from '@orbit-nivo/core'
+import { getOrdinalColorScale, getInheritedColorGenerator } from '@orbit-nivo/colors'
 import { BarDefaultProps } from './props'
 
 export default Component =>

@@ -14,13 +14,13 @@ import {
     MotionProps,
     SvgDefsAndFill,
     CartesianMarkerProps,
-} from '@nivo/core'
-import { AxisProps, GridValues } from '@nivo/axes'
-import { OrdinalColorsInstruction, InheritedColorProp } from '@nivo/colors'
-import { LegendProps } from '@nivo/legends'
-import { Scale } from '@nivo/scales'
+} from '@orbit-nivo/core'
+import { AxisProps, GridValues } from '@orbit-nivo/axes'
+import { OrdinalColorsInstruction, InheritedColorProp } from '@orbit-nivo/colors'
+import { LegendProps } from '@orbit-nivo/legends'
+import { Scale } from '@orbit-nivo/scales'
 
-declare module '@nivo/bar' {
+declare module '@orbit-nivo/bar' {
     export type Value = string | number
 
     export interface Data {

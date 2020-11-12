@@ -1,5 +1,5 @@
 import React from 'react'
-import { BasicTooltip } from '@nivo/tooltip'
+import { BasicTooltip } from '@orbit-nivo/tooltip'
 import { ComputedDatum } from './types'
 
 // prettier-ignore

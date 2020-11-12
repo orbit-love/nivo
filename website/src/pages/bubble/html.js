@@ -7,8 +7,8 @@
  * file that was distributed with this source code.
  */
 import React from 'react'
-import { ResponsiveBubbleHtml, BubbleHtmlDefaultProps } from '@nivo/circle-packing'
-import { generateLibTree } from '@nivo/generators'
+import { ResponsiveBubbleHtml, BubbleHtmlDefaultProps } from '@orbit-nivo/circle-packing'
+import { generateLibTree } from '@orbit-nivo/generators'
 import ComponentTemplate from '../../components/components/ComponentTemplate'
 import meta from '../../data/components/bubble/meta.yml'
 import mapper from '../../data/components/bubble/mapper'

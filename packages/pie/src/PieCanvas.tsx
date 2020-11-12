@@ -13,16 +13,16 @@ import {
     // @ts-ignore
     withContainer,
     Theme,
-} from '@nivo/core'
+} from '@orbit-nivo/core'
 // @ts-ignore
-import { renderLegendToCanvas } from '@nivo/legends'
+import { renderLegendToCanvas } from '@orbit-nivo/legends'
 import {
     // @ts-ignore
     useInheritedColor,
     InheritedColorProp,
-} from '@nivo/colors'
+} from '@orbit-nivo/colors'
 // @ts-ignore
-import { useTooltip } from '@nivo/tooltip'
+import { useTooltip } from '@orbit-nivo/tooltip'
 import { useNormalizedData, usePieFromBox, usePieRadialLabels, usePieSliceLabels } from './hooks'
 import { ComputedDatum, PieCanvasProps, RadialLabelData, SliceLabelData } from './types'
 import { defaultProps } from './props'

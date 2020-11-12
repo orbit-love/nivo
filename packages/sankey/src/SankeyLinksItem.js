@@ -9,8 +9,8 @@
 import React, { memo, useCallback, useMemo } from 'react'
 import PropTypes from 'prop-types'
 import { useSpring, animated } from 'react-spring'
-import { blendModePropType, useAnimatedPath, useMotionConfig } from '@nivo/core'
-import { BasicTooltip, Chip, useTooltip } from '@nivo/tooltip'
+import { blendModePropType, useAnimatedPath, useMotionConfig } from '@orbit-nivo/core'
+import { BasicTooltip, Chip, useTooltip } from '@orbit-nivo/tooltip'
 import SankeyLinkGradient from './SankeyLinkGradient'
 
 const tooltipStyles = {

@@ -1,13 +1,13 @@
 import * as React from 'react'
-import { CartesianMarkerProps } from '@nivo/core'
-import { AxisProps } from '@nivo/axes'
-import { Scale } from '@nivo/scales'
-import { LegendProps } from '@nivo/legends'
+import { CartesianMarkerProps } from '@orbit-nivo/core'
+import { AxisProps } from '@orbit-nivo/axes'
+import { Scale } from '@orbit-nivo/scales'
+import { LegendProps } from '@orbit-nivo/legends'
 import {
     ResponsiveScatterPlot,
     ResponsiveScatterPlotCanvas,
     ScatterPlotDatum,
-} from '@nivo/scatterplot'
+} from '@orbit-nivo/scatterplot'
 
 export default class ScatterPlot extends React.Component {
     public render() {

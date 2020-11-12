@@ -1,6 +1,6 @@
 import React, { createElement, useCallback } from 'react'
 // @ts-ignore
-import { useTooltip } from '@nivo/tooltip'
+import { useTooltip } from '@orbit-nivo/tooltip'
 import { ComputedDatum, CompletePieSvgProps } from './types'
 
 interface PieSliceProps<RawDatum> {

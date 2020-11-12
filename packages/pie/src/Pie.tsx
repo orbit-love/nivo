@@ -1,11 +1,11 @@
 import React, { ReactNode, Fragment, createElement } from 'react'
 // @ts-ignore
-import { withContainer, SvgWrapper, bindDefs, useTheme, useDimensions } from '@nivo/core'
+import { withContainer, SvgWrapper, bindDefs, useTheme, useDimensions } from '@orbit-nivo/core'
 import {
     // @ts-ignore
     useInheritedColor,
     InheritedColorProp,
-} from '@nivo/colors'
+} from '@orbit-nivo/colors'
 import { PieSlice } from './PieSlice'
 import { RadialLabels } from './RadialLabels'
 import { SliceLabels } from './SliceLabels'

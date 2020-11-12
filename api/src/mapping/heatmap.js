@@ -9,7 +9,7 @@
 'use strict'
 
 const Joi = require('joi')
-const { HeatMap } = require('@nivo/heatmap')
+const { HeatMap } = require('@orbit-nivo/heatmap')
 const { dimensions } = require('./commons/dimensions')
 const { inheritedColor } = require('./commons/colors')
 const common = require('./common')

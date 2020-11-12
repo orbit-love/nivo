@@ -9,8 +9,8 @@
 import React, { memo } from 'react'
 import PropTypes from 'prop-types'
 import { useSprings, animated } from 'react-spring'
-import { useTheme, useMotionConfig } from '@nivo/core'
-import { inheritedColorPropType } from '@nivo/colors'
+import { useTheme, useMotionConfig } from '@orbit-nivo/core'
+import { inheritedColorPropType } from '@orbit-nivo/colors'
 import { useSeriesLabels } from './hooks'
 
 const LinesLabels = ({ series, getLabel, position, padding, color }) => {

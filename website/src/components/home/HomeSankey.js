@@ -7,8 +7,8 @@
  * file that was distributed with this source code.
  */
 import React from 'react'
-import { generateSankeyData } from '@nivo/generators'
-import { ResponsiveSankey } from '@nivo/sankey'
+import { generateSankeyData } from '@orbit-nivo/generators'
+import { ResponsiveSankey } from '@orbit-nivo/sankey'
 import { HomeItem, HomeItemLabel } from './styled'
 
 const HomeSankey = ({ colors, nivoTheme }) => {

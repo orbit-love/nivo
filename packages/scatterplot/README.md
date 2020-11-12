@@ -1,6 +1,6 @@
-# `@nivo/scatterplot`
+# `@orbit-nivo/scatterplot`
 
-[![version](https://img.shields.io/npm/v/@nivo/scatterplot.svg?style=flat-square)](https://www.npmjs.com/package/@nivo/scatterplot)
+[![version](https://img.shields.io/npm/v/@orbit-nivo/scatterplot.svg?style=flat-square)](https://www.npmjs.com/package/@orbit-nivo/scatterplot)
 
 ## ScatterPlot
 

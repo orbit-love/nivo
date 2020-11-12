@@ -7,7 +7,7 @@
  * file that was distributed with this source code.
  */
 import React from 'react'
-import { ResponsiveWrapper } from '@nivo/core'
+import { ResponsiveWrapper } from '@orbit-nivo/core'
 import CalendarCanvas from './CalendarCanvas'
 
 const ResponsiveCalendarCanvas = props => (

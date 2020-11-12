@@ -7,12 +7,12 @@
  * file that was distributed with this source code.
  */
 import PropTypes from 'prop-types'
-import { lineCurvePropType, blendModePropType, motionPropTypes, defsPropTypes } from '@nivo/core'
-import { ordinalColorsPropType } from '@nivo/colors'
-import { axisPropType } from '@nivo/axes'
-import { scalePropType } from '@nivo/scales'
-import { LegendPropShape } from '@nivo/legends'
-import { crosshairPropTypes } from '@nivo/tooltip'
+import { lineCurvePropType, blendModePropType, motionPropTypes, defsPropTypes } from '@orbit-nivo/core'
+import { ordinalColorsPropType } from '@orbit-nivo/colors'
+import { axisPropType } from '@orbit-nivo/axes'
+import { scalePropType } from '@orbit-nivo/scales'
+import { LegendPropShape } from '@orbit-nivo/legends'
+import { crosshairPropTypes } from '@orbit-nivo/tooltip'
 import PointTooltip from './PointTooltip'
 import SliceTooltip from './SliceTooltip'
 

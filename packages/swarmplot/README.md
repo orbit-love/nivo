@@ -1,6 +1,6 @@
-# `@nivo/swarmplot`
+# `@orbit-nivo/swarmplot`
 
-[![version](https://img.shields.io/npm/v/@nivo/swarmplot.svg?style=flat-square)](https://www.npmjs.com/package/@nivo/swarmplot)
+[![version](https://img.shields.io/npm/v/@orbit-nivo/swarmplot.svg?style=flat-square)](https://www.npmjs.com/package/@orbit-nivo/swarmplot)
 
 ## SwarmPlot
 

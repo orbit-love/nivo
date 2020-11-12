@@ -7,11 +7,11 @@
  * file that was distributed with this source code.
  */
 import { Component } from 'react'
-import { AxisProps, GridValues } from '@nivo/axes'
-import { Box, MotionProps, Dimensions, Theme } from '@nivo/core'
-import { OrdinalColorsInstruction, InheritedColorProp } from '@nivo/colors'
+import { AxisProps, GridValues } from '@orbit-nivo/axes'
+import { Box, MotionProps, Dimensions, Theme } from '@orbit-nivo/core'
+import { OrdinalColorsInstruction, InheritedColorProp } from '@orbit-nivo/colors'
 
-declare module '@nivo/swarmplot' {
+declare module '@orbit-nivo/swarmplot' {
     export interface ComputedNode<Datum> {
         id: string
         index: number

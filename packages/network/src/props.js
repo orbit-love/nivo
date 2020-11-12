@@ -7,8 +7,8 @@
  * file that was distributed with this source code.
  */
 import PropTypes from 'prop-types'
-import { motionPropTypes } from '@nivo/core'
-import { inheritedColorPropType } from '@nivo/colors'
+import { motionPropTypes } from '@orbit-nivo/core'
+import { inheritedColorPropType } from '@orbit-nivo/colors'
 
 const commonPropTypes = {
     nodes: PropTypes.arrayOf(

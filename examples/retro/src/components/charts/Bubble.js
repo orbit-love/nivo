@@ -1,6 +1,6 @@
 import React from 'react'
-import { ResponsiveBubble } from '@nivo/circle-packing'
-import { generateCountriesData } from '@nivo/generators'
+import { ResponsiveBubble } from '@orbit-nivo/circle-packing'
+import { generateCountriesData } from '@orbit-nivo/generators'
 import { colors } from '../../constants'
 
 const Bubble = () => (

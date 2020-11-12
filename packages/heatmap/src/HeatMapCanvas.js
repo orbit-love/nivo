@@ -13,9 +13,9 @@ import {
     useDimensions,
     useTheme,
     withContainer,
-} from '@nivo/core'
-import { renderAxesToCanvas } from '@nivo/axes'
-import { useTooltip } from '@nivo/tooltip'
+} from '@orbit-nivo/core'
+import { renderAxesToCanvas } from '@orbit-nivo/axes'
+import { useTooltip } from '@orbit-nivo/tooltip'
 import { useHeatMap } from './hooks'
 import { HeatMapDefaultProps, HeatMapPropTypes } from './props'
 import { renderRect, renderCircle } from './canvas'

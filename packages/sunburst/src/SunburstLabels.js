@@ -8,7 +8,7 @@
  */
 import React, { Component, Fragment } from 'react'
 import PropTypes from 'prop-types'
-import { midAngle, positionFromAngle, radiansToDegrees, labelsThemePropType } from '@nivo/core'
+import { midAngle, positionFromAngle, radiansToDegrees, labelsThemePropType } from '@orbit-nivo/core'
 
 const sliceStyle = {
     pointerEvents: 'none',

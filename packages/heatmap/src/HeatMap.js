@@ -7,9 +7,9 @@
  * file that was distributed with this source code.
  */
 import React, { useCallback } from 'react'
-import { SvgWrapper, withContainer, useDimensions } from '@nivo/core'
-import { Axes, Grid } from '@nivo/axes'
-import { useTooltip } from '@nivo/tooltip'
+import { SvgWrapper, withContainer, useDimensions } from '@orbit-nivo/core'
+import { Axes, Grid } from '@orbit-nivo/axes'
+import { useTooltip } from '@orbit-nivo/tooltip'
 import { HeatMapSvgPropTypes, HeatMapSvgDefaultProps } from './props'
 import { useHeatMap } from './hooks'
 import HeatMapCells from './HeatMapCells'

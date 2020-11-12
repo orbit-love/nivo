@@ -1,6 +1,6 @@
-# `@nivo/circle-packing`
+# `@orbit-nivo/circle-packing`
 
-[![version](https://img.shields.io/npm/v/@nivo/circle-packing.svg?style=flat-square)](https://www.npmjs.com/package/@nivo/circle-packing)
+[![version](https://img.shields.io/npm/v/@orbit-nivo/circle-packing.svg?style=flat-square)](https://www.npmjs.com/package/@orbit-nivo/circle-packing)
 
 ## Bubble
 

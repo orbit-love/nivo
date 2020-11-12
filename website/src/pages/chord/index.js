@@ -7,8 +7,8 @@
  * file that was distributed with this source code.
  */
 import React from 'react'
-import { generateChordData } from '@nivo/generators'
-import { ResponsiveChord } from '@nivo/chord'
+import { generateChordData } from '@orbit-nivo/generators'
+import { ResponsiveChord } from '@orbit-nivo/chord'
 import ComponentTemplate from '../../components/components/ComponentTemplate'
 import meta from '../../data/components/chord/meta.yml'
 import mapper from '../../data/components/chord/mapper'

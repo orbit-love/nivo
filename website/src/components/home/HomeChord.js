@@ -7,8 +7,8 @@
  * file that was distributed with this source code.
  */
 import React from 'react'
-import { generateChordData } from '@nivo/generators'
-import { ResponsiveChordCanvas } from '@nivo/chord'
+import { generateChordData } from '@orbit-nivo/generators'
+import { ResponsiveChordCanvas } from '@orbit-nivo/chord'
 import { HomeItem, HomeItemLabel } from './styled'
 
 const HomeChord = ({ colors }) => {

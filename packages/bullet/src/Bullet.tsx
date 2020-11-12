@@ -1,6 +1,6 @@
 import React from 'react'
 // @ts-ignore
-import { Container, SvgWrapper, useDimensions } from '@nivo/core'
+import { Container, SvgWrapper, useDimensions } from '@orbit-nivo/core'
 import { defaultProps } from './props'
 import { BulletSvgProps } from './types'
 import { BulletItem } from './BulletItem'

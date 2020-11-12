@@ -7,8 +7,8 @@
  * file that was distributed with this source code.
  */
 import React from 'react'
-import { defaultProps, ResponsivePieCanvas } from '@nivo/pie'
-import { generateProgrammingLanguageStats } from '@nivo/generators'
+import { defaultProps, ResponsivePieCanvas } from '@orbit-nivo/pie'
+import { generateProgrammingLanguageStats } from '@orbit-nivo/generators'
 import ComponentTemplate from '../../components/components/ComponentTemplate'
 import meta from '../../data/components/pie/meta.yml'
 import mapper from '../../data/components/pie/mapper'

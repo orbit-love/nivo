@@ -1,6 +1,6 @@
 import React from 'react'
 // @ts-ignore
-import { ResponsiveWrapper } from '@nivo/core'
+import { ResponsiveWrapper } from '@orbit-nivo/core'
 import Pie from './Pie'
 import { PieSvgProps } from './types'
 

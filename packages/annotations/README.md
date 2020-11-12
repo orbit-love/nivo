@@ -1,1 +1,1 @@
-# `@nivo/annotations`
+# `@orbit-nivo/annotations`

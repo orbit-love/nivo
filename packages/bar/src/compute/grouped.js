@@ -6,7 +6,7 @@
  * For the full copyright and license information, please view the LICENSE
  * file that was distributed with this source code.
  */
-import { computeScale } from '@nivo/scales'
+import { computeScale } from '@orbit-nivo/scales'
 import { getIndexedScale } from './common'
 
 const gt = (value, other) => value > other

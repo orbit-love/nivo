@@ -1,6 +1,6 @@
-# `@nivo/heatmap`
+# `@orbit-nivo/heatmap`
 
-[![version](https://img.shields.io/npm/v/@nivo/heatmap.svg?style=flat-square)](https://www.npmjs.com/package/@nivo/heatmap)
+[![version](https://img.shields.io/npm/v/@orbit-nivo/heatmap.svg?style=flat-square)](https://www.npmjs.com/package/@orbit-nivo/heatmap)
 
 ## HeatMap
 

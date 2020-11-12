@@ -9,7 +9,7 @@
 import React from 'react'
 import renderer from 'react-test-renderer'
 import { mount } from 'enzyme'
-import { ThemeProvider } from '@nivo/core'
+import { ThemeProvider } from '@orbit-nivo/core'
 import BaseLegendSvgItem from '../../src/svg/LegendSvgItem'
 import * as shapes from '../../src/svg/symbols'
 import {

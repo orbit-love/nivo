@@ -8,8 +8,8 @@
  */
 import React, { memo, useMemo, useState, useCallback } from 'react'
 import PropTypes from 'prop-types'
-import { positionFromAngle, useTheme, useValueFormatter } from '@nivo/core'
-import { TableTooltip, Chip, useTooltip } from '@nivo/tooltip'
+import { positionFromAngle, useTheme, useValueFormatter } from '@orbit-nivo/core'
+import { TableTooltip, Chip, useTooltip } from '@orbit-nivo/tooltip'
 
 const RadarTooltipItem = memo(
     ({

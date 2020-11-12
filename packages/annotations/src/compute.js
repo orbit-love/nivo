@@ -14,7 +14,7 @@ import {
     absoluteAngleDegrees,
     degreesToRadians,
     positionFromAngle,
-} from '@nivo/core'
+} from '@orbit-nivo/core'
 import { defaultProps } from './props'
 
 const defaultPositionAccessor = item => ({ x: item.x, y: item.y })

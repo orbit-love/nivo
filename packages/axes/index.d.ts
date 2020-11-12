@@ -1,8 +1,8 @@
 import * as React from 'react'
-import { Dimensions } from '@nivo/core'
-import { Scale } from '@nivo/scales'
+import { Dimensions } from '@orbit-nivo/core'
+import { Scale } from '@orbit-nivo/scales'
 
-declare module '@nivo/axes' {
+declare module '@orbit-nivo/axes' {
     export type TickFormatter = (value: number | string | Date) => string | number
 
     type GridValuesBuilder<T> = T extends number

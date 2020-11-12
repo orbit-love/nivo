@@ -1,9 +1,9 @@
 import React, { useMemo } from 'react'
 import { AnimatedValue, useSpring, animated } from 'react-spring'
-import { Axis } from '@nivo/axes'
+import { Axis } from '@orbit-nivo/axes'
 // @ts-ignore
-import { getColorScale, useMotionConfig, useTheme } from '@nivo/core'
-import { BasicTooltip, useTooltip } from '@nivo/tooltip'
+import { getColorScale, useMotionConfig, useTheme } from '@orbit-nivo/core'
+import { BasicTooltip, useTooltip } from '@orbit-nivo/tooltip'
 import { stackValues } from './compute'
 import { BulletMarkers } from './BulletMarkers'
 import { BulletRects } from './BulletRects'

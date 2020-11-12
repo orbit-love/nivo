@@ -1,5 +1,5 @@
 import * as React from 'react'
-import { Box, Dimensions, Theme, Colors, ModernMotionProps } from '@nivo/core'
+import { Box, Dimensions, Theme, Colors, ModernMotionProps } from '@orbit-nivo/core'
 import { ScaleLinear } from 'd3-scale'
 import { AnimatedValue } from 'react-spring'
 

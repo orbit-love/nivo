@@ -1,7 +1,7 @@
 import React from 'react'
 import { storiesOf } from '@storybook/react'
 import { withKnobs, boolean } from '@storybook/addon-knobs'
-import { generateProgrammingLanguageStats } from '@nivo/generators'
+import { generateProgrammingLanguageStats } from '@orbit-nivo/generators'
 import { Pie } from '../src'
 
 const commonProperties = {
